@@ -515,11 +515,6 @@
       "commands": [
         "./commands/ml-pipeline.md"
       ],
-      "agents": [
-        "./agents/data-scientist.md",
-        "./agents/ml-engineer.md",
-        "./agents/mlops-engineer.md"
-      ],
       "skills": [
         "./skills/ml-pipeline-workflow"
       ]
@@ -548,10 +543,6 @@
       "commands": [
         "./commands/data-driven-feature.md",
         "./commands/data-pipeline.md"
-      ],
-      "agents": [
-        "./agents/data-engineer.md",
-        "./agents/backend-architect.md"
       ]
     },
     {
@@ -577,10 +568,6 @@
       "commands": [
         "./commands/incident-response.md",
         "./commands/smart-fix.md"
-      ],
-      "agents": [
-        "./agents/incident-responder.md",
-        "./agents/devops-troubleshooter.md"
       ]
     },
     {
@@ -635,10 +622,6 @@
       "strict": false,
       "commands": [
         "./commands/debug-trace.md"
-      ],
-      "agents": [
-        "./agents/error-detective.md",
-        "./agents/devops-troubleshooter.md"
       ]
     },
     {
@@ -703,11 +686,7 @@
       ],
       "category": "infrastructure",
       "strict": false,
-      "commands": [],
-      "agents": [
-        "./agents/deployment-engineer.md",
-        "./agents/terraform-specialist.md"
-      ]
+      "commands": []
     },
     {
       "name": "deployment-validation",
@@ -731,9 +710,6 @@
       "strict": false,
       "commands": [
         "./commands/config-validate.md"
-      ],
-      "agents": [
-        "./agents/cloud-architect.md"
       ]
     },
     {
@@ -897,12 +873,6 @@
       "strict": false,
       "commands": [
         "./commands/cost-optimize.md"
-      ],
-      "agents": [
-        "./agents/database-optimizer.md",
-        "./agents/database-architect.md",
-        "./agents/backend-architect.md",
-        "./agents/cloud-architect.md"
       ]
     },
     {
@@ -1081,10 +1051,6 @@
       "commands": [
         "./commands/sql-migrations.md",
         "./commands/migration-observability.md"
-      ],
-      "agents": [
-        "./agents/database-optimizer.md",
-        "./agents/database-admin.md"
       ]
     },
     {
@@ -1112,9 +1078,6 @@
         "./commands/security-hardening.md",
         "./commands/security-sast.md",
         "./commands/security-dependencies.md"
-      ],
-      "agents": [
-        "./agents/security-auditor.md"
       ],
       "skills": [
         "./skills/sast-configuration"
@@ -1144,9 +1107,6 @@
       "strict": false,
       "commands": [
         "./commands/compliance-check.md"
-      ],
-      "agents": [
-        "./agents/security-auditor.md"
       ]
     },
     {
@@ -1227,10 +1187,7 @@
       ],
       "category": "data",
       "strict": false,
-      "commands": [],
-      "agents": [
-        "./agents/backend-security-coder.md"
-      ]
+      "commands": []
     },
     {
       "name": "api-scaffolding",
@@ -1313,12 +1270,7 @@
       ],
       "category": "marketing",
       "strict": false,
-      "commands": [],
-      "agents": [
-        "./agents/seo-content-writer.md",
-        "./agents/seo-content-planner.md",
-        "./agents/seo-content-auditor.md"
-      ]
+      "commands": []
     },
     {
       "name": "seo-technical-optimization",
@@ -1341,13 +1293,7 @@
       ],
       "category": "marketing",
       "strict": false,
-      "commands": [],
-      "agents": [
-        "./agents/seo-meta-optimizer.md",
-        "./agents/seo-keyword-strategist.md",
-        "./agents/seo-structure-architect.md",
-        "./agents/seo-snippet-hunter.md"
-      ]
+      "commands": []
     },
     {
       "name": "seo-analysis-monitoring",
@@ -1370,12 +1316,7 @@
       ],
       "category": "marketing",
       "strict": false,
-      "commands": [],
-      "agents": [
-        "./agents/seo-content-refresher.md",
-        "./agents/seo-cannibalization-detector.md",
-        "./agents/seo-authority-builder.md"
-      ]
+      "commands": []
     },
     {
       "name": "documentation-generation",
@@ -1466,10 +1407,7 @@
       ],
       "category": "business",
       "strict": false,
-      "commands": [],
-      "agents": [
-        "./agents/business-analyst.md"
-      ]
+      "commands": []
     },
     {
       "name": "hr-legal-compliance",
@@ -1494,11 +1432,7 @@
       ],
       "category": "business",
       "strict": false,
-      "commands": [],
-      "agents": [
-        "./agents/hr-pro.md",
-        "./agents/legal-advisor.md"
-      ]
+      "commands": []
     },
     {
       "name": "customer-sales-automation",
@@ -1521,11 +1455,7 @@
       ],
       "category": "business",
       "strict": false,
-      "commands": [],
-      "agents": [
-        "./agents/customer-support.md",
-        "./agents/sales-automator.md"
-      ]
+      "commands": []
     },
     {
       "name": "content-marketing",
@@ -1547,11 +1477,7 @@
       ],
       "category": "marketing",
       "strict": false,
-      "commands": [],
-      "agents": [
-        "./agents/content-marketer.md",
-        "./agents/search-specialist.md"
-      ]
+      "commands": []
     },
     {
       "name": "blockchain-web3",
@@ -1577,9 +1503,6 @@
       "category": "blockchain",
       "strict": false,
       "commands": [],
-      "agents": [
-        "./agents/blockchain-developer.md"
-      ],
       "skills": [
         "./skills/defi-protocol-templates",
         "./skills/nft-standards",
@@ -1608,11 +1531,7 @@
       ],
       "category": "finance",
       "strict": false,
-      "commands": [],
-      "agents": [
-        "./agents/quant-analyst.md",
-        "./agents/risk-manager.md"
-      ]
+      "commands": []
     },
     {
       "name": "payment-processing",
@@ -1638,9 +1557,6 @@
       "category": "payments",
       "strict": false,
       "commands": [],
-      "agents": [
-        "./agents/payment-integration.md"
-      ],
       "skills": [
         "./skills/billing-automation",
         "./skills/paypal-integration",
@@ -1670,11 +1586,7 @@
       ],
       "category": "gaming",
       "strict": false,
-      "commands": [],
-      "agents": [
-        "./agents/unity-developer.md",
-        "./agents/minecraft-bukkit-pro.md"
-      ]
+      "commands": []
     },
     {
       "name": "accessibility-compliance",
@@ -1727,11 +1639,6 @@
       "strict": false,
       "commands": [
         "./commands/python-scaffold.md"
-      ],
-      "agents": [
-        "./agents/python-pro.md",
-        "./agents/django-pro.md",
-        "./agents/fastapi-pro.md"
       ],
       "skills": [
         "./skills/async-python-patterns",
@@ -1830,12 +1737,7 @@
       ],
       "category": "languages",
       "strict": false,
-      "commands": [],
-      "agents": [
-        "./agents/java-pro.md",
-        "./agents/scala-pro.md",
-        "./agents/csharp-pro.md"
-      ]
+      "commands": []
     },
     {
       "name": "web-scripting",
@@ -1913,10 +1815,7 @@
       ],
       "category": "languages",
       "strict": false,
-      "commands": [],
-      "agents": [
-        "./agents/arm-cortex-expert.md"
-      ]
+      "commands": []
     },
     {
       "name": "shell-scripting",

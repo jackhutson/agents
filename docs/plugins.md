@@ -1,6 +1,6 @@
 # Complete Plugin Reference
 
-Browse all **54 focused, single-purpose plugins** organized by category.
+Browse all focused, single-purpose plugins organized by category.
 
 ## Quick Start - Essential Plugins
 

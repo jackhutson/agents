@@ -2,27 +2,27 @@
 
 > **⚡ Updated for Sonnet 4.5 & Haiku 4.5** — All agents optimized for latest models with hybrid orchestration
 >
-> **🎯 Agent Skills Enabled** — 26 specialized skills extend Claude's capabilities across plugins with progressive disclosure
+> **🎯 Agent Skills Enabled** — Specialized skills extend Claude's capabilities across plugins with progressive disclosure
 
-A comprehensive production-ready system combining **62 specialized AI agents**, **15 multi-agent workflow orchestrators**, **26 agent skills**, and **44 development tools** organized into **54 focused, single-purpose plugins** for [Claude Code](https://docs.claude.com/en/docs/claude-code/overview).
+A comprehensive production-ready system combining specialized AI agents, multi-agent workflow orchestrators, agent skills, and development tools organized into focused, single-purpose plugins for [Claude Code](https://docs.claude.com/en/docs/claude-code/overview).
 
 ## Overview
 
 This unified repository provides everything needed for intelligent automation and multi-agent orchestration across modern software development:
 
-- **54 Focused Plugins** - Granular, single-purpose plugins optimized for minimal token usage and composability
-- **62 Specialized Agents** - Domain experts with deep knowledge across architecture, languages, infrastructure, quality, AI/LLM, documentation, and specialized domains
-- **26 Agent Skills** - Modular knowledge packages with progressive disclosure for specialized expertise
-- **15 Workflow Orchestrators** - Multi-agent coordination systems for complex operations like full-stack development, security hardening, and deployment
-- **44 Development Tools** - Optimized utilities including project scaffolding, security scanning, test automation, and infrastructure setup
+- **Focused Plugins** - Granular, single-purpose plugins optimized for minimal token usage and composability
+- **Specialized Agents** - Domain experts with deep knowledge across architecture, languages, infrastructure, quality, AI/LLM, documentation, and specialized domains
+- **Agent Skills** - Modular knowledge packages with progressive disclosure for specialized expertise
+- **Workflow Orchestrators** - Multi-agent coordination systems for complex operations like full-stack development, security hardening, and deployment
+- **Development Tools** - Optimized utilities including project scaffolding, security scanning, test automation, and infrastructure setup
 
 ### Key Features
 
-- **Granular Plugin Architecture**: 54 focused plugins optimized for minimal token usage
-- **Comprehensive Tooling**: 44 development tools including test generation, scaffolding, and security scanning
+- **Granular Plugin Architecture**: Focused plugins optimized for minimal token usage
+- **Comprehensive Tooling**: Development tools including test generation, scaffolding, and security scanning
 - **100% Agent Coverage**: All plugins include specialized agents
-- **Agent Skills**: 26 specialized skills following for progressive disclosure and token efficiency
-- **Clear Organization**: 23 categories with 1-6 plugins each for easy discovery
+- **Agent Skills**: Specialized skills following progressive disclosure and token efficiency
+- **Clear Organization**: Multiple categories for easy discovery
 - **Efficient Design**: Average 3.4 components per plugin (follows Anthropic's 2-8 pattern)
 
 ### How It Works
@@ -47,7 +47,7 @@ Add this marketplace to Claude Code:
 /plugin marketplace add wshobson/agents
 ```
 
-This makes all 54 plugins available for installation, but **does not load any agents or tools** into your context.
+This makes all plugins available for installation, but **does not load any agents or tools** into your context.
 
 ### Step 2: Install Plugins
 
@@ -82,9 +82,9 @@ Each installed plugin loads **only its specific agents, commands, and skills** i
 
 ### Core Guides
 
-- **[Plugin Reference](docs/plugins.md)** - Complete catalog of all 54 plugins
-- **[Agent Reference](docs/agents.md)** - All 62 agents organized by category
-- **[Agent Skills](docs/agent-skills.md)** - 26 specialized skills with progressive disclosure
+- **[Plugin Reference](docs/plugins.md)** - Complete catalog of all plugins
+- **[Agent Reference](docs/agents.md)** - All agents organized by category
+- **[Agent Skills](docs/agent-skills.md)** - Specialized skills with progressive disclosure
 - **[Usage Guide](docs/usage.md)** - Commands, workflows, and best practices
 - **[Architecture](docs/architecture.md)** - Design principles and patterns
 
@@ -98,7 +98,7 @@ Each installed plugin loads **only its specific agents, commands, and skills** i
 
 ## What's New
 
-### Agent Skills (26 skills across 10 plugins)
+### Agent Skills
 
 Specialized knowledge packages following Anthropic's progressive disclosure architecture:
 
@@ -121,8 +121,8 @@ Specialized knowledge packages following Anthropic's progressive disclosure arch
 ### Hybrid Model Orchestration
 
 Strategic model assignment for optimal performance and cost:
-- **2 Haiku agents** - Fast execution for deterministic tasks
-- **60 Sonnet agents** - Complex reasoning and architecture
+- **Haiku agents** - Fast execution for deterministic tasks
+- **Sonnet agents** - Complex reasoning and architecture
 
 Orchestration patterns combine models for efficiency:
 ```
@@ -175,7 +175,7 @@ Uses kubernetes-architect agent with 4 specialized skills for production-grade c
 
 ## Plugin Categories
 
-**23 categories, 54 plugins:**
+**Multiple categories:**
 
 - 🎨 **Development** (4) - debugging, backend, frontend, multi-platform
 - 📚 **Documentation** (2) - code docs, API specs, diagrams
@@ -201,7 +201,7 @@ Uses kubernetes-architect agent with 4 specialized skills for production-grade c
 - **Single responsibility** - Each plugin does one thing well
 - **Minimal token usage** - Average 3.4 components per plugin
 - **Composable** - Mix and match for complex workflows
-- **100% coverage** - All 62 agents accessible across plugins
+- **100% coverage** - All agents accessible across plugins
 
 ### Progressive Disclosure (Skills)
 
@@ -215,17 +215,17 @@ Three-tier architecture for token efficiency:
 ```
 claude-agents/
 ├── .claude-plugin/
-│   └── marketplace.json          # 54 plugins
+│   └── marketplace.json          # All plugins
 ├── plugins/
 │   ├── javascript-typescript/
-│   │   ├── agents/               # 2 JS/TS experts
+│   │   ├── agents/               # JS/TS experts
 │   │   ├── commands/             # Scaffolding tool
-│   │   └── skills/               # 4 specialized skills
+│   │   └── skills/               # Specialized skills
 │   ├── kubernetes-operations/
 │   │   ├── agents/               # K8s architect
 │   │   ├── commands/             # Deployment tools
-│   │   └── skills/               # 4 K8s skills
-│   └── ... (52 more plugins)
+│   │   └── skills/               # K8s skills
+│   └── ... (more plugins)
 ├── docs/                          # Comprehensive documentation
 └── README.md                      # This file
 ```
