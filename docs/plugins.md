@@ -256,7 +256,7 @@ plugins/javascript-typescript/
 ### Step 1: Add the Marketplace
 
 ```bash
-/plugin marketplace add wshobson/agents
+/plugin marketplace add jackhutson/agents
 ```
 
 This makes all 54 plugins available for installation, but **does not load any agents or tools** into your context.

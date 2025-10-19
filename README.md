@@ -44,7 +44,7 @@ Each plugin is completely isolated with its own agents, commands, and skills:
 Add this marketplace to Claude Code:
 
 ```bash
-/plugin marketplace add wshobson/agents
+/plugin marketplace add jackhutson/agents
 ```
 
 This makes all plugins available for installation, but **does not load any agents or tools** into your context.
@@ -103,14 +103,17 @@ Each installed plugin loads **only its specific agents, commands, and skills** i
 Specialized knowledge packages following Anthropic's progressive disclosure architecture:
 
 **Language Development:**
+
 - **JavaScript/TypeScript** (4 skills): advanced types, Node.js patterns, testing, modern ES6+
 
 **Infrastructure & DevOps:**
+
 - **Kubernetes** (4 skills): manifests, Helm charts, GitOps, security policies
 - **Cloud Infrastructure** (4 skills): Terraform, multi-cloud, hybrid networking, cost optimization
 - **CI/CD** (4 skills): pipeline design, GitHub Actions, GitLab CI, secrets management
 
 **Development & Architecture:**
+
 - **Backend** (3 skills): API design, architecture patterns, microservices
 - **LLM Applications** (4 skills): LangChain, prompt engineering, RAG, evaluation
 
@@ -121,10 +124,12 @@ Specialized knowledge packages following Anthropic's progressive disclosure arch
 ### Hybrid Model Orchestration
 
 Strategic model assignment for optimal performance and cost:
+
 - **Haiku agents** - Fast execution for deterministic tasks
 - **Sonnet agents** - Complex reasoning and architecture
 
 Orchestration patterns combine models for efficiency:
+
 ```
 Sonnet (planning) → Haiku (execution) → Sonnet (review)
 ```
@@ -158,6 +163,7 @@ Multi-agent security assessment with SAST, dependency scanning, and code review.
 ```
 
 Creates production-ready Next.js project with TypeScript, activating skills:
+
 - `typescript-advanced-types` - Advanced type system patterns
 - `nodejs-backend-patterns` - Backend service patterns
 - `javascript-testing-patterns` - Jest and Testing Library
@@ -206,6 +212,7 @@ Uses kubernetes-architect agent with 4 specialized skills for production-grade c
 ### Progressive Disclosure (Skills)
 
 Three-tier architecture for token efficiency:
+
 1. **Metadata** - Name and activation criteria (always loaded)
 2. **Instructions** - Core guidance (loaded when activated)
 3. **Resources** - Examples and templates (loaded on demand)
@@ -250,6 +257,7 @@ See [Architecture Documentation](docs/architecture.md) for detailed guidelines.
 ## Resources
 
 ### Documentation
+
 - [Claude Code Documentation](https://docs.claude.com/en/docs/claude-code/overview)
 - [Plugins Guide](https://docs.claude.com/en/docs/claude-code/plugins)
 - [Subagents Guide](https://docs.claude.com/en/docs/claude-code/sub-agents)
@@ -257,6 +265,7 @@ See [Architecture Documentation](docs/architecture.md) for detailed guidelines.
 - [Slash Commands Reference](https://docs.claude.com/en/docs/claude-code/slash-commands)
 
 ### This Repository
+
 - [Plugin Reference](docs/plugins.md)
 - [Agent Reference](docs/agents.md)
 - [Agent Skills Guide](docs/agent-skills.md)
@@ -266,7 +275,3 @@ See [Architecture Documentation](docs/architecture.md) for detailed guidelines.
 ## License
 
 MIT License - see [LICENSE](LICENSE) file for details.
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=wshobson/agents&type=date&legend=top-left)](https://www.star-history.com/#wshobson/agents&type=date&legend=top-left)
