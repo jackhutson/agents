@@ -1,6 +1,6 @@
 # Agent Skills
 
-Agent Skills are modular packages that extend Claude's capabilities with specialized domain knowledge, following Anthropic's [Agent Skills Specification](https://github.com/anthropics/skills/blob/main/agent_skills_spec.md). This plugin ecosystem includes **47 specialized skills** across 14 plugins, enabling progressive disclosure and efficient token usage.
+Agent Skills are modular packages that extend Claude's capabilities with specialized domain knowledge, following Anthropic's [Agent Skills Specification](https://github.com/anthropics/skills/blob/main/agent_skills_spec.md). This plugin ecosystem includes **26 specialized skills** across 10 plugins, enabling progressive disclosure and efficient token usage.
 
 ## Overview
 
@@ -38,14 +38,6 @@ Skills provide Claude with deep expertise in specific domains without loading ev
 | **architecture-patterns** | Implement Clean Architecture, Hexagonal Architecture, and Domain-Driven Design |
 | **microservices-patterns** | Design microservices with service boundaries, event-driven communication, and resilience |
 
-### Blockchain & Web3 (4 skills)
-
-| Skill | Description |
-|-------|-------------|
-| **defi-protocol-templates** | Implement DeFi protocols with templates for staking, AMMs, governance, and lending |
-| **nft-standards** | Implement NFT standards (ERC-721, ERC-1155) with metadata and marketplace integration |
-| **solidity-security** | Master smart contract security to prevent vulnerabilities and implement secure patterns |
-| **web3-testing** | Test smart contracts using Hardhat and Foundry with unit tests and mainnet forking |
 
 ### CI/CD Automation (4 skills)
 
@@ -83,24 +75,6 @@ Skills provide Claude with deep expertise in specific domains without loading ev
 | **distributed-tracing** | Implement distributed tracing with Jaeger and Tempo to track requests |
 | **slo-implementation** | Define SLIs and SLOs with error budgets and alerting |
 
-### Payment Processing (4 skills)
-
-| Skill | Description |
-|-------|-------------|
-| **stripe-integration** | Implement Stripe payment processing for checkout, subscriptions, and webhooks |
-| **paypal-integration** | Integrate PayPal payment processing with express checkout and subscriptions |
-| **pci-compliance** | Implement PCI DSS compliance for secure payment card data handling |
-| **billing-automation** | Build automated billing systems for recurring payments and invoicing |
-
-### Python Development (5 skills)
-
-| Skill | Description |
-|-------|-------------|
-| **async-python-patterns** | Master Python asyncio, concurrent programming, and async/await patterns |
-| **python-testing-patterns** | Implement comprehensive testing with pytest, fixtures, and mocking |
-| **python-packaging** | Create distributable Python packages with proper structure and PyPI publishing |
-| **python-performance-optimization** | Profile and optimize Python code using cProfile and performance best practices |
-| **uv-package-manager** | Master the uv package manager for fast dependency management and virtual environments |
 
 ### JavaScript/TypeScript (4 skills)
 
@@ -111,17 +85,6 @@ Skills provide Claude with deep expertise in specific domains without loading ev
 | **javascript-testing-patterns** | Implement comprehensive testing with Jest, Vitest, and Testing Library |
 | **modern-javascript-patterns** | Master ES6+ features including async/await, destructuring, and functional programming |
 
-### API Scaffolding (1 skill)
-
-| Skill | Description |
-|-------|-------------|
-| **fastapi-templates** | Create production-ready FastAPI projects with async patterns and error handling |
-
-### Machine Learning Operations (1 skill)
-
-| Skill | Description |
-|-------|-------------|
-| **ml-pipeline-workflow** | Build end-to-end MLOps pipelines from data preparation through deployment |
 
 ### Security Scanning (1 skill)
 
@@ -142,8 +105,8 @@ User: "Set up Kubernetes deployment with Helm chart"
 User: "Build a RAG system for document Q&A"
 → Activates: rag-implementation, prompt-engineering-patterns
 
-User: "Optimize Python async performance"
-→ Activates: async-python-patterns, python-performance-optimization
+User: "Build TypeScript backend with Node.js"
+→ Activates: typescript-advanced-types, nodejs-backend-patterns
 ```
 
 ### Progressive Disclosure
@@ -167,12 +130,12 @@ backend-architect agent → Plans API architecture
   ↓
 api-design-principles skill → Provides REST/GraphQL best practices
   ↓
-fastapi-templates skill → Supplies production-ready templates
+Architecture patterns skill → Supplies implementation patterns
 ```
 
 ## Specification Compliance
 
-All 47 skills follow the [Agent Skills Specification](https://github.com/anthropics/skills/blob/main/agent_skills_spec.md):
+All 26 skills follow the [Agent Skills Specification](https://github.com/anthropics/skills/blob/main/agent_skills_spec.md):
 
 - ✓ Required `name` field (hyphen-case)
 - ✓ Required `description` field with "Use when" clause
