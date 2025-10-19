@@ -105,13 +105,6 @@ Claude Code automatically selects and coordinates the appropriate agents based o
 | `/deployment-validation:config-validate` | Pre-deployment validation |
 | `/cicd-automation:workflow-automate` | CI/CD pipeline automation |
 
-### Data & ML
-
-| Command | Description |
-|---------|-------------|
-| `/machine-learning-ops:ml-pipeline` | ML training pipeline orchestration |
-| `/data-engineering:data-pipeline` | ETL/ELT pipeline construction |
-| `/data-engineering:data-driven-feature` | Data-driven feature development |
 
 ### Documentation
 
@@ -133,13 +126,6 @@ Claude Code automatically selects and coordinates the appropriate agents based o
 | `/framework-migration:code-migrate` | Framework migration |
 | `/framework-migration:deps-upgrade` | Dependency upgrades |
 
-### Database
-
-| Command | Description |
-|---------|-------------|
-| `/database-migrations:sql-migrations` | SQL migration automation |
-| `/database-migrations:migration-observability` | Migration monitoring |
-| `/database-cloud-optimization:cost-optimize` | Database and cloud optimization |
 
 ### Git & PR Workflows
 
@@ -153,7 +139,6 @@ Claude Code automatically selects and coordinates the appropriate agents based o
 
 | Command | Description |
 |---------|-------------|
-| `/python-development:python-scaffold` | FastAPI/Django project setup |
 | `/javascript-typescript:typescript-scaffold` | Next.js/React + Vite setup |
 | `/systems-programming:rust-project` | Rust project scaffolding |
 
@@ -236,31 +221,8 @@ Plugins provide pre-configured multi-agent workflows accessible via slash comman
 "Perform security audit and implement OWASP best practices"
 ```
 
-**Orchestration:** security-auditor → backend-security-coder → frontend-security-coder → mobile-security-coder → test-automator
+**Orchestration:** security-auditor → frontend-security-coder → mobile-security-coder → test-automator
 
-### Data/ML Pipeline
-
-```bash
-# ML feature development with production deployment
-/machine-learning-ops:ml-pipeline "customer churn prediction model"
-
-# Natural language alternative
-"Build customer churn prediction model with deployment"
-```
-
-**Orchestration:** data-scientist → data-engineer → ml-engineer → mlops-engineer → performance-engineer
-
-### Incident Response
-
-```bash
-# Smart debugging with root cause analysis
-/incident-response:smart-fix "production memory leak in payment service"
-
-# Natural language alternative
-"Debug production memory leak and create runbook"
-```
-
-**Orchestration:** incident-responder → devops-troubleshooter → debugger → error-detective → observability-engineer
 
 ## Command Arguments and Options
 
@@ -287,8 +249,8 @@ Many slash commands support arguments for precise control:
 # Smart debugging
 /debugging-toolkit:smart-debug memory leak in checkout flow
 
-# Python project scaffolding
-/python-development:python-scaffold fastapi-microservice
+# TypeScript project scaffolding
+/javascript-typescript:typescript-scaffold next-app
 ```
 
 ## Combining Natural Language and Commands
@@ -350,10 +312,10 @@ Compose multiple plugins for complex scenarios:
 Agent Skills work alongside commands to provide deep expertise:
 
 ```
-User: "Set up FastAPI project with async patterns"
-→ Activates: fastapi-templates skill
-→ Invokes: /python-development:python-scaffold
-→ Result: Production-ready FastAPI project with best practices
+User: "Set up Next.js project with TypeScript"
+→ Activates: typescript-advanced-types skill
+→ Invokes: /javascript-typescript:typescript-scaffold
+→ Result: Production-ready Next.js project with TypeScript best practices
 
 User: "Implement Kubernetes deployment with Helm"
 → Activates: helm-chart-scaffolding, k8s-manifest-generator skills
@@ -361,11 +323,11 @@ User: "Implement Kubernetes deployment with Helm"
 → Result: Production-grade K8s manifests with Helm charts
 ```
 
-See [Agent Skills](./agent-skills.md) for details on the 47 specialized skills.
+See [Agent Skills](./agent-skills.md) for details on specialized skills.
 
 ## See Also
 
 - [Agent Skills](./agent-skills.md) - Specialized knowledge packages
 - [Agent Reference](./agents.md) - Complete agent catalog
-- [Plugin Reference](./plugins.md) - All 63 plugins
+- [Plugin Reference](./plugins.md) - All 54 plugins
 - [Architecture](./architecture.md) - Design principles
